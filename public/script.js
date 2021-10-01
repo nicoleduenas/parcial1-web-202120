@@ -8,6 +8,7 @@ const message = document.getElementById('message');
 enterButton.addEventListener('click', (event) => {
   //Implementar lógica del button submit
   height = input.value;
+  console.log(height)
   getresults(height);
   event.preventDefault();
 });
